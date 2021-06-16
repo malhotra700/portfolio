@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+:root {
+	--sidebar-flex: 1.5;
+	--condiv-flex: 6;
+	--fontsize-p: 1.2rem;
+	--fontsize-nav: 1.6rem;
+	--typing-font: 3rem;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Raleway';
+	font-weight: 500;
+}
+.App {
+	display: flex;
+	width: 100vw;
+	min-height: 100vh;
+}
+/* .condiv class is for the right side content container*/
+.condiv {
+	padding: 2%;
+	margin: 0;
+	width: 80%;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	margin-left: 20%;
+	display: inline-block;
+	background-color: #222629;
+	color: #61892f;
+	flex: var(--condiv-flex);
+}
+.cont1 {
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 2%;
+}
+.cont2 {
+	display: inline;
+	color: #6b6e70;
+	font-size: 2vw;
+}
+.cont4 {
+	display: inline;
+	color: #6b6e70;
+	font-size: 1.5vw;
+}
+.cont4 p {
+	padding: 2%;
+	margin: 1%;
+	text-align: justify;
+}
+.cont4 p:hover {
+	background-color: #1e2124;
+	padding: 2%;
+	margin: 1%;
+	text-align: justify;
+}
+.cont3 {
+	margin-top: 2%;
+	margin-bottom: 4%;
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	color: #6b6e70;
+	font-size: 2vw;
+}
+
+.cont5 {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 100%;
+	height: 12vw;
+}
+
+.cont5 div {
+	border-radius: 15%;
+	margin: 1%;
+	width: 20%;
+	height: 100%;
+	color: #222629;
+	font-size: 1.5vw;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	padding: 2%;
+	line-height: 100%;
+	background-color: #61892f;
+}
+
+.cont5 div:hover {
+	background-color: #86c232;
+}
+
+.cont5 div a {
+	color: #222629;
+	margin-left: 3%;
+}
+
+.cont5 div p {
+	color: #222629;
+	margin-top: 10%;
+	font-weight: bolder;
+	font-size: 1vw;
+}
+
+.cont3 img {
+	border-radius: 50%;
+	margin: 1%;
+	padding: 2%;
+	background-color: #61892f;
+}
+.cont3 img:hover {
+	border-radius: 50%;
+	margin: 1%;
+	padding: 2.5%;
+	background-color: #86c232;
+}
+nav {
+	padding: 0;
+	margin: 0;
+	width: 20%;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	flex: var(--sidebar-flex);
+	background-color: #1e2124;
+}
+nav ul {
+	font-size: 2vw;
+	font-weight: bold;
+	text-align: center;
+	list-style-type: none;
+}
+nav ul li {
+	width: 100%;
+	line-height: 300%;
+}
+.Normal:hover {
+	background-color: #222629;
+}
+.Normal a {
+	color: #61892f;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.active {
+	background-color: #61892f;
+}
+.active:hover {
+	background-color: #86c232;
+}
+.active a {
+	color: #222629;
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.profilepic {
+	border-radius: 50%;
+	margin-bottom: 2%;
+}
+.typingeffect {
+	font-size: 4vw;
+	font-weight: bold;
+}
+.social {
+	display: inline-block;
+	margin: 4%;
+}
+.social img {
+	border-radius: 50%;
+	margin: 1%;
+	padding: 1%;
+	background-color: #61892f;
+}
+.social img:hover {
+	background-color: #86c232;
+}
+.widecard {
+	display: flex;
+	margin: 2%;
+	padding: 2%;
+}
+.widecard h3 {
+	width: 100%;
+	color: #86c232;
+	font-size: 2vw;
+	margin: 0% 1% 1% 1%;
+	text-decoration: none;
+}
+.widecard h3 a {
+	color: #86c232;
+}
+.widecard h4 {
+	width: 100%;
+	color: #e5e5e5;
+	font-size: 1.5vw;
+	margin: 1%;
+}
+.widecard h4 a {
+	color: #e5e5e5;
+}
+.widecard p {
+	width: 100%;
+	color: #6b6e70;
+	font-size: 1.5vw;
+	margin: 1%;
+	text-align: justify;
+}
+.widecard:hover {
+	display: flex;
+	margin: 2%;
+	background-color: #1e2124;
+}
